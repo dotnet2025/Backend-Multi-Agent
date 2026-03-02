@@ -23,10 +23,21 @@ bld/
 [Ll]og/
 [Ll]ogs/
 
+# Visual Studio / IDE
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+
 # .NET Core
 project.lock.json
 project.fragment.lock.json
 artifacts/
+publish/
 
 # ASP.NET Scaffolding
 ScaffoldingReadMe.txt
@@ -40,6 +51,12 @@ ScaffoldingReadMe.txt
 ~$*
 *~
 CodeCoverage/
+coverage/
+coverage*/
+*.coverage
+*.coveragexml
+*.trx
+TestResults/
 
 # MSBuild Binary and Structured Log
 *.binlog
